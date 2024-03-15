@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>DESCUBRA O NUMERO!!!</h1>
+    <section>
+        <p>
+            numero:
+            <input type="text" id="inNumero" autofocus>
+            <input type="button" value="Apostar" id="btnApostar">
+            <input type="button" value="Reiniciar" onclick="Reiniciar()" id="btnJogar">
+        </p>
+        <h3>Erros: <span id="outErros"> 0</span></h3>
+        <h3>Chances: <span id="outChances">6 </span></h3>
+        <h3>Dicas: <span id="outDicas">é um numero de 1 a 100 </span></h3>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
